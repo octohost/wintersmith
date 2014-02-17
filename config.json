@@ -1,0 +1,25 @@
+{
+  "locals": {
+    "url": "http://wintersmith.octohost.io",
+    "name": "Wintersmith on octohost"
+  },
+  "plugins": [
+    "./plugins/paginator.coffee",
+    "wintersmith-ejs"
+  ],
+  "require": {
+    "moment": "moment",
+    "_": "underscore",
+    "typogr": "typogr"
+  },
+  "jade": {
+    "pretty": true
+  },
+  "markdown": {
+    "smartLists": true,
+    "smartypants": true
+  },
+  "paginator": {
+    "perPage": 3
+  }
+}
