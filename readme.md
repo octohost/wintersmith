@@ -15,5 +15,3 @@ git push octohost master
 ```
 
 This repo uses the [wintersmith-nginx](https://github.com/octohost/wintersmith-nginx) container to serve static files.
-
-Example site \(usually\) at [http://wintersmith.octohost.io](http://wintersmith.octohost.io)
